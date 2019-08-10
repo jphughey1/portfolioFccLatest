@@ -5,9 +5,9 @@
 
 html,
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
-  background-image: url("https://images.unsplash.com/photo-1518600570419-81324064e9ae?ixlib=rb-0.3.5&s=bc0f45d6b7aa6f593567cdd808d6ac9b&auto=format&fit=crop&w=500&q=60");
+  background-image: url('https://images.unsplash.com/photo-1518600570419-81324064e9ae?ixlib=rb-0.3.5&s=bc0f45d6b7aa6f593567cdd808d6ac9b&auto=format&fit=crop&w=500&q=60');
   background-position: left;
   background-repeat: no-repeat;
   height: 74vh;
@@ -15,7 +15,7 @@ body {
 }
 
 #welcome-section {
-  background-image: url("https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f0ad5bf182a8aff79a57dd18988fd1d&auto=format&fit=crop&w=651&q=80");
+  background-image: url('https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f0ad5bf182a8aff79a57dd18988fd1d&auto=format&fit=crop&w=651&q=80');
   background-position: right;
   background-repeat: no-repeat;
   background-size: 80vh;
@@ -41,7 +41,7 @@ border:solid; */
 }
 
 #landing-image3 {
-  background: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=863ffeea823f0ffb0885fe1a5e77e645&auto=format&fit=crop&w=500&q=60");
+  background: url('https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=863ffeea823f0ffb0885fe1a5e77e645&auto=format&fit=crop&w=500&q=60');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -82,7 +82,7 @@ div ul li {
 }
 
 div ul li a {
-  color: #e8491d;
+  color: #cccccc;
   text-decoration: none;
 }
 /* #ffffff*/
@@ -94,7 +94,7 @@ div ul li a:hover {
   margin: auto;
   width: 145px;
   height: 125px;
-  background: url("portrait.jpg") no-repeat;
+  background: url('portrait.jpg') no-repeat;
   border-radius: 50%;
   border: solid 3px #ee641a;
 }
@@ -161,7 +161,7 @@ div ul li a:hover {
 
 @media only screen and (max-width: 500px) {
   #welcome-section {
-    background-image: url("https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f0ad5bf182a8aff79a57dd18988fd1d&auto=format&fit=crop&w=651&q=80");
+    background-image: url('https://images.unsplash.com/photo-1487887235947-a955ef187fcc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=3f0ad5bf182a8aff79a57dd18988fd1d&auto=format&fit=crop&w=651&q=80');
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
@@ -209,6 +209,26 @@ div ul li a:hover {
   color: green;
 }
 
+#certs {
+  color: #ffffff;
+}
+
+.ed {
+  background: #005f89;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1em;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.ed:hover {
+  background: #e8491d;
+  color: green;
+}
+
 footer {
   padding: 20px;
   background: #e8491d;
@@ -221,7 +241,7 @@ footer a {
 }
 @media (min-width: 367px) and (max-width: 768px) {
   #welcome-section {
-    background-image: url("https://images.unsplash.com/photo-1518600570419-81324064e9ae?ixlib=rb-0.3.5&s=bc0f45d6b7aa6f593567cdd808d6ac9b&auto=format&fit=crop&w=500&q=60");
+    background-image: url('https://images.unsplash.com/photo-1518600570419-81324064e9ae?ixlib=rb-0.3.5&s=bc0f45d6b7aa6f593567cdd808d6ac9b&auto=format&fit=crop&w=500&q=60');
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
